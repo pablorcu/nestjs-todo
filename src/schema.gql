@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Estes es un mensaje desde el end point"""
+  helloWorld: String!
+  randomNumber: Float!
+
+  """From zero to argument to"""
+  randomFromZeroTo(to: Int): Int!
+}
